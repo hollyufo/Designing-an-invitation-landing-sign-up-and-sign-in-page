@@ -52,10 +52,9 @@ a{
 }
 .text1{
     padding: 45px;
-    background-color: black;
 }
 .par1{
-    width: 36%;
+    width: 62%;
     padding-top: 10px;
     padding-bottom: 15px;
 }
@@ -76,26 +75,68 @@ a{
 .inputContainer i {
     position: absolute;
  }
- .inputContainer {
+.inputContainer {
     width: 100%;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
  }
- .icon {
+.icon {
     padding: 15px;
     color: rgb(49, 0, 128);
     width: 70px;
     text-align: left;
- }
- .Field {
+}
+.Field {
     padding: 10px;
     padding-left: 75px;
     margin-right: 25px;
- }
-.heroimg {
-        position: absolute;
-        top: 12%;
-        left: 68%;
-        width: 27%;
- }
+}
+.herosec{
+    background-color: black;
+    display: flex;
+}
+.heroimg{
+    position: absolute;
+    top: 105px;
+    right: 45px;
+    width: 385px;
+}
+.partners{
+    margin-top: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 115px;
+}
+.middlesec{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.awards{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-content: space-around; */
+    align-items: center;
+}
+.serv1{
+    display: flex;
+    align-items: center;
+}
+.btn3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.service1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.link1{
+    color: inherit;
+    text-decoration: underline;
+}
