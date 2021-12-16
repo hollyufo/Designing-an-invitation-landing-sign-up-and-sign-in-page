@@ -71,6 +71,8 @@ a{
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 4px;
+    font-weight: lighter;
+    font-size: 16px;
 }
 .inputContainer i {
     position: absolute;
@@ -131,6 +133,7 @@ a{
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    color: ivory;
 }
 .service1{
     margin-top: 40px;
@@ -139,4 +142,50 @@ a{
 .link1{
     color: inherit;
     text-decoration: underline;
+}
+.ms-ms{
+    font-weight: bolder;
+    font-size: 42px;
+}
+.title3{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.lowersec{
+    margin-top: 40px;
+}
+.preseting{
+    background-color: black;
+    padding: 39px 24px 35px 34px;
+    margin-top: 126px;
+}
+.text-preseting{
+    font-size: 48px;
+    font-weight: normal;
+}
+.secr{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.secr-text{
+    padding-left: 10px;
+}
+.slc{
+    display: flex;
+    align-items: center;
+}
+.svgg{
+    width: 171px;
+    height: 35px;
+}
+.log-ggl{
+margin-right: 15px;
+border-radius: 7px;
+}
+.sign-up{
+    position: absolute;
+    top: 158%;
+    right: 20px;
+    height: 52%;
 }
