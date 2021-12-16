@@ -189,3 +189,57 @@ border-radius: 7px;
     right: 20px;
     height: 52%;
 }
+.photos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.photo1{
+    width: 25%;
+}
+.photo2{
+    width: 19%;
+}
+.photo3{
+    width: 25%;
+}
+.photo4{
+    width: 20%;
+}
+.p1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.p2{
+    width: 80%;
+    float: right;
+}
+.p3{
+    width: 100%;
+}
+.p4{
+    width: 100%;
+}
+.p5{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.p6{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.p7{
+    width: 100%;
+}
+footer{
+    background-color: black;
+}
+.f1{
+    width: 30%;
+}
+.fp{
+    margin-bottom: 15px;
+}
+.flinks{
+    list-style-type: none;
+}
