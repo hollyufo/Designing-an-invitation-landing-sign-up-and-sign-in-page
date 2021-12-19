@@ -12,13 +12,12 @@
     flex-direction: column;
 }
 .main{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: flex;
     flex-direction: column;
     padding: 30px;
-    background-color: #dcdcdc;
     border-radius: 10px;
     align-items: center;
+    justify-content: center;
 }
 h1{
     text-align: center;
@@ -38,4 +37,23 @@ h1{
 }
 .message{
     margin: 10px;
+}
+.structure {
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 23px;
+    margin-bottom: 58px;
+}
+@media only screen and (max-width: 600px) {
+    img{
+        display: none;
+    }
+  }
+@media only screen and (min-width: 600px) {
+    .container{
+        margin-top: 98px
+    }
 }
