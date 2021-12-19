@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;800&display=swap');
+.container{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+header{
+    margin-top: 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    padding: 12px 16px;
+    z-index: 1;
+
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.herosecm{
+    margin-top: 30px;
+    background-color: black;
+    padding: 100px;
+    margin-bottom: 171px;
+}
+.mtitle1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.mpara1{
+    color: white;
+    margin-bottom: 15px;
+}
+input::-webkit-calendar-picker-indicator {
+    opacity: 100;
+ }
+.input1 {
+    border: 0px solid;
+    color: rgb(0, 0, 0);
+    padding: 15px 50px 15px 0px;
+    outline: none;
+    border-radius: 5px;
+}
+.nav-container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.ahero{
+    color: white;
+    padding: 15px 5px 15px 5px;
+    background-image: linear-gradient(to right, #FB7B30 , #A831A5);
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.menu1{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list1{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.lis1{
+    margin: 0px 15px 0px 15px;
+}
+.list2{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.loginbtn{
+    margin-left: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.special{
+    margin-right: 150px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.option1{
+    outline: none;
+    border: solid 0px;
+    font-size: inherit;
+    padding: 0px 24px 0px 0px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+}
+.heroimg{
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    z-index: 1;
+    height: 51%;
+}
+.partners{
+    margin: 70px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.midle-img{
+    width: 30%;
+}
+.awards{
+    width: 34%;
+}
+.ms-ms{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.middlesec{display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.serv1{
+    display: flex;
+    align-items: center;
+}
+.title3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.service1{
+    margin: 30px 0px 30px 0px;
+}
+.btn3{
+    display: flex;
+}
+.signup{
+    margin: 90px 0px 90px 0px;
+}
+.mainsign{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.para1{
+    margin-left: 10px;
+}
+.titlesign{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.btng{
+    display: flex;
+    flex-wrap: wrap;
+}
+.exp{
+    margin-left: 20px;
+}
+.signupimg{
+    position: relative;
+    /* right: 100px; */
+    bottom: 315px;
+    /* z-index: 1; */
+    height: 370px;
+    float: right;
+}
+.album{
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+}
+.album1, .album2, .album4 {
+    width: 300px;
+}
+.al1, .al4, .al5, .al6, .al7{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.album3{
+    width: 375px;
+}
+.al2{
+    width: 80%;
+    float: right;
+}
+.al3{
+    width: 100%;
+}
+footer{
+    background-color: black;
+}
+.f1{
+    width: 30%;
+}
+.fp{
+    margin-bottom: 15px;
+}
+.flinks{
+    list-style-type: none;
+}
+.fcontainer{
+    margin-top: 43px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.zft{
+    padding: 10px;
+}
+.links{
+    display: flex;
+}
+.flinks{
+    padding: 5px;
+}
+.ful{
+    margin: 30px;
+}
+.fspecial{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.final{
+    text-align: center;
+    padding: 10px;
+}
+.sgvs{
+    background-color: white;
+    height: 20px;
+}
+@media  (max-width: 1200px) {
+    .album{
+        display: none;
+    }
+    .fcontainer {
+        width: 88%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .links {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media  (max-width: 1124px) {
+    .heroimg{
+        display: none;
+    }
+    .submobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media  (max-width: 888px) {
+    .midle-img{
+        display: none;
+    }
+    .awards{
+        margin: auto;
+        width: 80%;
+        padding-top: 50px;
+    }
+}
+@media (min-width: 952px) {
+    .nav-container1{
+        display: none;
+    }
+}
+@media  (max-width: 1031px) {
+    .signupimg{
+        display: none;
+    }
+    .mainsign {
+        width: 91%;
+    }
+    .btng {
+        justify-content: center;
+    }
+    .titlesign{
+        text-align: center;
+    }
+    .text1{
+        justify-content: center;
+    }
+}        
+@media  (max-width: 952px) {
+    .nav-container2{
+        display: none;
+    }
+    .heroimg{
+        display: none;
+    }
+    .inputs{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .ahero{
+        margin-left: 0px;
+        padding: 15px 5px 15px 5px;
+    }
+    .exp {
+        margin-left: 20px;
+    }
+    .herosecm {
+        margin-top: 30px;
+        background-color: black;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+    .inputs{
+        display: flex;
+        align-items: center;
+    }
+    .submobile{
+        display: block;
+    }
+    .mtitle1{
+        text-align: center;
+    }
+    .mpara1{
+        text-align: center;
+    }
+}
+@media  (max-width: 493px) {
+
+    .ahero{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .partners{
+        display: none;
+    }
+}
+@media  (max-width: 645px) {
+    .partners{
+        display: none;
+    }
+}

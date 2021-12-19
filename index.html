@@ -3,54 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>invitation</title>
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+    <title>invitation mobile</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="list1">
-                <li class="lis1 special"><a href="./index.html">invitation</a></li>
-                <li class="lis1"><a href="#">Features</a></li>
-                <li class="lis1"><a href="#">Extension</a></li>
-                <li class="lis1"><a href="#">Referral programs</a></li>
-                <li class="lis1"><a href="#">people</a></li>
-            </ul>
-            <ul class="list2">
-                <li class="lis2"><a href="./login.html">Log in</a></li>
-                <li class="lis2 loginbtn"><a href="./signup.html">Sign up</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <section>
-            <div class="herosec">
-                <div class="text1">
-                    <h1>The Referral Community.</h1>
-                    <p class="par1">Invitation is the new social network where everyone gets rewarded. Join, post all your referral links — collect rewards on auto pilot.</p>
-                    <div class="inputContainer">
-                        <i class="fa fa-user icon"> </i>
-                        <input class="Field" type="text" placeholder="Find promo codes" />
-                        <a href="#" class="btn1">Get started -- for free</a>
+        <nav class="container">
+            <div class="nav-container1">
+                <p class="special">invitation</p>
+                <div class="dropdown">
+                    <span class="menu1">Menu</span>
+                    <div class="dropdown-content">
+                        <p class="zft">Features</p>
+                        <p class="zft">Extension</p>
+                        <p class="zft">Referral programs</p>
+                        <p class="zft">people</p>
+                        <p class="zft"><a href="login.html">Log in</a></p>
+                        <p class="zft"><a href="signin.html">Sign up</a></p>
                     </div>
                 </div>
             </div>
-            <div class="hero1">
-                <img class="heroimg" src="./assets/images/hero-image.png" alt="">
+            <div class="nav-container2">
+                <ul class="list1">
+                    <li class="lis1 special"><a href="./index.html">invitation</a></li>
+                    <li class="lis1"><a href="#">Features</a></li>
+                    <li class="lis1"><a href="#">Extension</a></li>
+                    <li class="lis1">
+                        <select name="" class="option1">
+                            <option value="test">Referral Programs</option>
+                            <option value="test">help2</option>
+                            <option value="test">help3</option>
+                            <option value="test">help4</option>
+                            <option value="test">help5</option>
+                            <option value="test">help6</option>
+                            <option value="test">help7</option>
+                        </select>
+                    </li>
+                    <li class="lis1">
+                        <select name="" class="option1">
+                            <option value="test">people</option>
+                            <option value="test">help2</option>
+                            <option value="test">help3</option>
+                            <option value="test">help4</option>
+                            <option value="test">help5</option>
+                            <option value="test">help6</option>
+                            <option value="test">help7</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="list2">
+                    <li class="lis2"><a href="./login.html">Log in</a></li>
+                    <li class="lis2 loginbtn"><a href="./signin.html">Sign up</a></li>
+                </ul>
             </div>
-        </section>
-        <section class="partners">
-            <img src="./assets/images/company-1.png" alt="company1">
-            <img src="./assets/images/company-2.png" alt="company2">
-            <img src="./assets/images/company-3.png" alt="company3">
-            <img src="./assets/images/company-4.png" alt="company4">
-            <img src="./assets/images/company-5.png" alt="company5">
-            <img src="./assets/images/company-6.png" alt="company6">
-        </section>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="herosecm">
+            <div class="submobile">
+                <h1 class="mtitle1">The Referral Community.</h1>
+                <p class="mpara1">Invitation is the new social network where everyone gets rewarded. <br> Join, post all your referral links — collect rewards on auto pilot.</p>
+                <div class="inputs">
+                    <input class="input1" list="browsers" name="browser" id="browser" placeholder="🔍 find promo codes.">
+                    <datalist id="browsers">
+                    <option value="promo 1">
+                    <option value="promo 2">
+                    <option value="promo 3">
+                    <option value="promo 4">
+                    <option value="promo 5">
+                    </datalist>
+                    <a href="" class="ahero">Get Started — It's free.</a>
+            </div>
+            </div>
+            <img class="heroimg" src="./assets/images/hero-image.png" alt="hero img">
+        </div>
+        <div class="partners">
+            <img src="./assets/images/company-1.png" alt="company-1">
+            <img src="./assets/images/company-2.png" alt="company-2">
+            <img src="./assets/images/company-3.png" alt="company-3">
+            <img src="./assets/images/company-4.png" alt="company-4">
+            <img src="./assets/images/company-5.png" alt="company-5">
+            <img src="./assets/images/company-6.png" alt="company-6">
+        </div>
         <section class="middlesec">
-            <img src="./assets/images/left-illustration.png" alt="left-illustration">
+            <img class="midle-img" src="./assets/images/left-illustration.png" alt="left-illustration">
             <div class="awards">
                 <h2 class="ms-ms">Get Cash rewards 💰</h2>
                 <div class="service1">
@@ -125,34 +162,34 @@
                         </svg>
                         <h6 class="title3">Grow</h6>
                     </div>
-                    <p>Explore more <a class="link1" href="#">referral programs</a> and promote your page to get more bonuses & discounts.</p>
+                    <p>Explore more <a class="link1" href="#"><u>referral programs</u></a> and promote your page to get more bonuses & discounts.</p>
                 </div>
                 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
                 <div class="btn3">
-                    <a href="#" class="btn1">Get started -- for free</a>
+                    <a href="#" class="ahero">Get started -- for free</a>
                 </div>
             </div>
-            <img src="./assets/images/right-illustration.png" alt="right-illustration">
+            <img class="midle-img" src="./assets/images/right-illustration.png" alt="right-illustration">
         </section>
-        <!--     next section             -->
-        <section class="lowersec">
-            <div class="preseting">
-                <h1 class="text-preseting">Why don't you post your links here <br> too?</h1>
-                <div class="secr">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path id="iconmonstr-check-mark-4_1_" data-name="iconmonstr-check-mark-4 (1)" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0ZM10.75,17.292l-4.5-4.364L8.107,11.07l2.643,2.506,5.643-5.784L18.25,9.649Z" fill="#fff"/>
-                    </svg>
-                    <p class="secr-text">List the products you ❤️ love.</p>
-                </div>
-                <div class="secr">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path id="iconmonstr-check-mark-4_1_" data-name="iconmonstr-check-mark-4 (1)" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0ZM10.75,17.292l-4.5-4.364L8.107,11.07l2.643,2.506,5.643-5.784L18.25,9.649Z" fill="#fff"/>
-                    </svg>
-                    <p class="secr-text">Get 🎉 rewarded.</p>
-                </div> 
-                <div class="secr slc">
-                    <button class="log-ggl">
-                        <svg class="svgg" xmlns="http://www.w3.org/2000/svg" width="261" height="52" viewBox="0 0 261 52">
+        <!--next section-->
+        <section class="signup">
+            <div class="mainsign">
+                <h2 class="titlesign">Why don't you post your links here<br>too ?</h2>
+                <div class="textlist">
+                    <div class="text1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="iconmonstr-check-mark-4_1_" data-name="iconmonstr-check-mark-4 (1)" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0ZM10.75,17.292l-4.5-4.364L8.107,11.07l2.643,2.506,5.643-5.784L18.25,9.649Z" fill="#fff"/>
+                        </svg>
+                        <p class="para1">List the products you ❤️ love.</p>
+                    </div>
+                    <div class="text1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path id="iconmonstr-check-mark-4_1_" data-name="iconmonstr-check-mark-4 (1)" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0ZM10.75,17.292l-4.5-4.364L8.107,11.07l2.643,2.506,5.643-5.784L18.25,9.649Z" fill="#fff"/>
+                        </svg>
+                        <p class="para1">Get 🎉 rewarded.</p>
+                    </div>
+                    <div class="btng">
+                        <svg class="googlesvg" xmlns="http://www.w3.org/2000/svg" width="261" height="52" viewBox="0 0 261 52">
                             <g id="Group_8" data-name="Group 8" transform="translate(-198 -2051)">
                               <rect id="Rectangle_6" data-name="Rectangle 6" width="261" height="52" rx="5" transform="translate(198 2051)" fill="#fff"/>
                               <g id="Google-Button" transform="translate(230 2055)">
@@ -176,32 +213,33 @@
                               </g>
                               <text id="Sign_in_with_Google" data-name="Sign in with Google" transform="translate(274 2083)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Sign in with Google</tspan></text>
                             </g>
-                          </svg>                        
-                    </button>
-                    <a href="#" class="btn1">Explore Features</a>
-                </div>              
+                          </svg>
+                          
+                        <a href="#" class="ahero exp" >Explore Feautures</a>
+                    </div>
+                </div>
             </div>
-            <img class="sign-up" src="./assets/images/signup-image.png" alt="signupimg">
+            <img class="signupimg" src="./assets/images/signup-image.png" alt="signup">
         </section>
-        <section class="photos">
-            <div class="photo1">
-                <img class="p1" src="./assets/images/footer-1.png" alt="car">
-                <img class="p2" src="./assets/images/footer-5.png" alt="building">
+        <div class="album">
+            <div class="album1">
+                <img class="al1" src="./assets/images/footer-1.png" alt="car">
+                <img class="al2" src="./assets/images/footer-5.png" alt="building">
             </div>
-            <div class="photo2">
-                <img class="p3" src="./assets/images/footer-3.png" alt="mountains">
+            <div class="album2">
+                <img class="al3" src="./assets/images/footer-3.png" alt="mountains">
             </div>
-            <div class="photo3">
-                <img class="p5" src="./assets/images/footer-2.png" alt="car 2">
-                <img class="p5" src="./assets/images/footer-4.png" alt="fire">
+            <div class="album3">
+                <img class="al4" src="./assets/images/footer-2.png" alt="car 2">
+                <img class="al5" src="./assets/images/footer-4.png" alt="fire">
             </div>
-            <div class="photo4">
-                <img class="p6" src="./assets/images/footer-7.png" alt="grass and sky">
-                <img class="p7" src="./assets/images/footer-6.png" alt="clouds">
+            <div class="album4">
+                <img class="al6" src="./assets/images/footer-7.png" alt="grass and sky">
+                <img class="al7" src="./assets/images/footer-6.png" alt="clouds">
             </div>
-        </section>
+        </div>
     </div>
-    <footer class="container fcontainer">
+    <footer class="fcontainer container">
         <div class="f1">
             <div class="text">
                 <p class="fp">Invitation is the new social network where everyone gets rewarded. Join, post all your referral links — collect rewards on auto pilot.</p>
@@ -222,32 +260,33 @@
             </div>
         </div>
         <div class="links">
-            <ul>
-                <li class="flinks">Explore</li>
+            <ul class="ful">
+                <li class="flinks fspecial">Explore</li>
                 <li class="flinks">Programs</li>
                 <li class="flinks">People</li>
                 <li class="flinks">Guide</li>
             </ul>
-            <ul>
-                <li class="flinks">Me</li>
+            <ul class="ful">
+                <li class="flinks fspecial">Me</li>
                 <li class="flinks">Post a link</li>
                 <li class="flinks">Sign in</li>
                 <li class="flinks">Sign up</li>
             </ul>
-            <ul>
-                <li class="flinks">Product</li>
+            <ul class="ful">
+                <li class="flinks fspecial">Product</li>
                 <li class="flinks">Features</li>
                 <li class="flinks">Extension</li>
                 <li class="flinks">Earn Credits</li>
                 <li class="flinks">Invite Friends</li>
                 <li class="flinks">Help</li>
             </ul>
-            <ul>
-                <li class="flinks">Company</li>
+            <ul class="ful">
+                <li class="flinks fspecial">Company</li>
                 <li class="flinks">Job</li>
                 <li class="flinks">Advertise</li>
             </ul>
         </div>
     </footer>
+    <p class="final">All product names, logos, brands and dogs are property of their respective owners.Feel free to check out our privacy policy and terms of service.</p>
 </body>
 </html>
